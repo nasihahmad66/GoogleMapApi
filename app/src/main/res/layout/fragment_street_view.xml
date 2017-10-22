@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.sch.smktelkom_mlg.learning.maps.Fragment.StreetViewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <fragment
+        android:id="@+id/streetviewpanorama"
+        android:name="com.google.android.gms.maps.SupportStreetViewPanoramaFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>
